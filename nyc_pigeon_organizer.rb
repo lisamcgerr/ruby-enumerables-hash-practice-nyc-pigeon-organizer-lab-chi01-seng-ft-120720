@@ -78,7 +78,9 @@ end
     #:lives points to an array of (string) "City Hall"
   
   #"Alex" points to a hash of value (symbol) :color, :gender, :lives
-  
+    #:color points to an array of (string) "white", "brown"
+    #:gender points to an array of (string) "male"
+    #:lives points to an array of (string) "Central Park"
   
   
   
