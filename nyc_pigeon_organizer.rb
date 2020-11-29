@@ -73,6 +73,7 @@ end
     #:lives points to an array of (string) "Subway"
   
   #"Andrew" points to a hash of value (symbol) :color, :gender, :lives
+    
   
   #"Alex" points to a hash of value (symbol) :color, :gender, :lives
   
