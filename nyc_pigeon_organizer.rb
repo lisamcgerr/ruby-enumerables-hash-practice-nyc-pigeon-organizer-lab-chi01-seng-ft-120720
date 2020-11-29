@@ -32,4 +32,4 @@ end
     
   #:gender points to a hash of value (symbols) :male, :female
     #:male points to an array of names(string) "Alex", "Theo", "Peter Jr.", "Andrew", "Lucky"
-    #:female 
+    #:female points to an array of names(string) 
