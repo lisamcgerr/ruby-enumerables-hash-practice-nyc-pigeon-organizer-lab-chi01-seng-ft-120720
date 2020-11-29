@@ -39,3 +39,12 @@ end
     #"Central Park" points to an array of (string) "Alex", "Ms. K", "Lucky"
     #"Library" points to an array of (string) "Peter Jr."
     #"City Hall" points to an array of (string) "Andrew"
+    
+#TRANSFORM HASH pigeon_data to HASH pigeon_list
+#colors "purple", "grey", "white", "brown" converted from symbols to string
+#gender "male", "female" converted from symbols to string
+
+
+
+
+#
