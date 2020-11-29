@@ -13,8 +13,8 @@ def nyc_pigeon_organizer(data)
       inner_value.each do |element_of_array|
       binding.pry
       if !final_hash[name]
-        #if "Theo" etc does not exist in final_hash create a new hash
         final_hash[name] = { }
+        
         
       end
       
