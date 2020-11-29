@@ -31,4 +31,4 @@ end
     #:brown points to an array of names (string) "Queenie", "Alex"
     
   #:gender points to a hash of value (symbols) :male, :female
-    #:male points to an array of names(string)
+    #:male points to an array of names(string) 
