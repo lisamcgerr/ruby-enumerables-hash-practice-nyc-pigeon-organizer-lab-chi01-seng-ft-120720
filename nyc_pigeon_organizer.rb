@@ -3,7 +3,7 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   #data is the original hash
   
-  data.each_with_object({ }) do |(key, value), final_hash|
+  pigeon_list = data.each_with_object({ }) do |(key, value), final_hash|
    
     #key points to :color, :gender, :lives, :color 1st
     #value are the hashes within each of the 3 keys above
@@ -30,11 +30,10 @@ def nyc_pigeon_organizer(data)
       if !final_hash[element_of_array][key]
         final_hash[element_of_array][key] = [ ]
       end
-        #if it doesn't exist yet in final_hash
-    
+        #if in the final hash of the first bird name - the key (:color, :gender, :lives) does NOT exist create an empty array
+    final_hash[element_of_array][key].push(inner_key)
   end
-  final_hash
-end
+  end
   
   binding.pry
 end
