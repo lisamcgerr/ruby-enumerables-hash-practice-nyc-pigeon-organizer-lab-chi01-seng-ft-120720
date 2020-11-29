@@ -48,6 +48,9 @@ end
 
   #"Theo" points to a hash of value (symbol) :color, :gender, :lives
   
+  #"Peter Jr." points to a hash of value (symbol) :color, :gender, :lives
+  
+  
   
   
   
