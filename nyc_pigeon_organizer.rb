@@ -14,10 +14,11 @@ def nyc_pigeon_organizer(data)
       binding.pry
       if !final_hash[name]
         final_hash[name] = { }
-        
-        
+        #if "Theo" etc does not exist in final_hash create a new hash
       end
-      
+      if !final_hash[element_of_array][key] = [ ]
+        
+        #if not in final_hash
     end
   end
   final_hash
