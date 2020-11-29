@@ -50,6 +50,9 @@ end
   
   #"Peter Jr." points to a hash of value (symbol) :color, :gender, :lives
   
+  #"Lucky" points to a hash of value (symbol) :color, :gender, :lives
+  
+  
   
   
   
