@@ -44,6 +44,8 @@ end
 #colors "purple", "grey", "white", "brown" converted from symbols to string
 #gender "male", "female" converted from symbols to string
 
+#pigeon_list points to a hash of value (string) "Theo", "Peter Jr.", "Lucky", "Ms. K", "Queenie", "Andrew", 
+
 
 
 
