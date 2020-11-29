@@ -57,9 +57,12 @@ end
    #:lives points to an array of (string) "Library"
   
   #"Lucky" points to a hash of value (symbol) :color, :gender, :lives
-  
+   #:color points to an array of (string) "purple"
+   #:gender points to an array of (string) "male"
+   #:lives points to an array of (string) "Central Park"
   
   #"Ms. K" points to a hash of value (symbol) :color, :gender, :lives
+    
   
   #"Queenie" points to a hash of value (symbol) :color, :gender, :lives
   
