@@ -28,4 +28,4 @@ end
     #:purple points to an array of names (string) "Theo", "Peter Jr.", "Lucky"
     #:grey points to an array of names (string) "Theo", "Peter Jr.", "Ms. K"
     #:white points to an array of names (string) "Queenie", "Andrew", "Ms. K", "Alex"
-    #:brown 
+    #:brown points to an array of names (string)
