@@ -38,4 +38,4 @@ end
     #"Subway" points to an array of (string) "Theo", "Queenie"
     #"Central Park" points to an array of (string) "Alex", "Ms. K", "Lucky"
     #"Library" points to an array of (string) "Peter Jr."
-    #"City Hall" points to an array of (string) 
+    #"City Hall" points to an array of (string) "Andrew"
