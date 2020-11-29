@@ -10,19 +10,22 @@ def nyc_pigeon_organizer(data)
     #final_hash = { } 
     
     value.each do |inner_key, inner_value_arrays|
-      inner_value.each do |element_of_array|
+      inner_value_arrays.each do |element_of_array|
         
         #inner_key = :purple, :grey, :white, :brown
           #inner_value_arrays point to arrays of strings of names
         #inner_key = :male, :female
-         #inner_value_arrays point to arrays of strings of names
+          #inner_value_arrays point to arrays of strings of names
         #inner_key = "Subway", "Central Park", "Library", "City Hall"
-        
+          #inner_value_arrays point to arrays of strings of names
+            
+            #element_of_array are the elements in the arrays = bird names
+          
       binding.pry
-      if !final_hash[name]
-        final_hash[name] = { }
+      if !final_hash[element_of_array]
+        final_hash[element_of_array] = { }
       end  
-        #if "Theo" etc does not exist in final_hash create a new hash
+        #if the bird name does NOT (!) exist in final_hash create a new hash
     
       if !final_hash[element_of_array][key]
         final_hash[element_of_array][key] = [ ]
