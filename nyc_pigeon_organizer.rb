@@ -15,6 +15,7 @@ def nyc_pigeon_organizer(data)
         #inner_key = :purple, :grey, :white, :brown
           #inner_value_arrays point to arrays of strings of names
         #inner_key = :male, :female
+        
         #inner_key = "Subway", "Central Park", "Library", "City Hall"
       binding.pry
       if !final_hash[name]
