@@ -1,6 +1,8 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  #data is the 
+  
   binding.pry
 end
+#end of entire method
