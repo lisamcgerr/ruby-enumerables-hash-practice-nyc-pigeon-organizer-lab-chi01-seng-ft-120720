@@ -21,7 +21,6 @@ def nyc_pigeon_organizer(data)
             
             #element_of_array are the elements in the arrays = bird names
           
-      binding.pry
       if !final_hash[element_of_array]
         final_hash[element_of_array] = { }
       end  
@@ -35,7 +34,7 @@ def nyc_pigeon_organizer(data)
     final_hash[element_of_array][key].push(inner_key)
   end
   end
-  
+end
   binding.pry
 end
 #end of entire method
