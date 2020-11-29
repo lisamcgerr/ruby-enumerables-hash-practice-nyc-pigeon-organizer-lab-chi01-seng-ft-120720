@@ -35,4 +35,7 @@ end
     #:female points to an array of names (string) "Queenie", "Ms. K"
     
   #:lives points to a hash of value (string) "Subway", "Central Park", "Library", "City Hall"
-    #"Subway" points to an array of (string) 
+    #"Subway" points to an array of (string) "Theo", "Queenie"
+    #"Central Park"
+    #"Library"
+    #"City Hall"
