@@ -56,6 +56,9 @@ end
   
   #"Queenie" points to a hash of value (symbol) :color, :gender, :lives
   
+  #"Andrew" points to a hash of value (symbol) :color, :gender, :lives
+  
+  
   
   
   
