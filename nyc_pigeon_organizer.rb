@@ -27,4 +27,5 @@ end
   #:color points to a hash of value (symbols), :purple, :grey, :white, :brown
     #:purple points to an array of names (string) "Theo", "Peter Jr.", "Lucky"
     #:grey points to an array of names (string) "Theo", "Peter Jr.", "Ms. K"
-    #:white points to an array of names (string) 
+    #:white points to an array of names (string) "Queenie", "Andrew", "Ms. K", "Alex"
+    
