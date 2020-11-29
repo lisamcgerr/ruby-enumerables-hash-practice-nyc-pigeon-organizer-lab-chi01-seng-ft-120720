@@ -25,5 +25,6 @@ end
 #pigeon_data points to a a hash of value (symbols) :color, :gender, :lives
   
   #:color points to a hash of value (symbols), :purple, :grey, :white, :brown
-    #:purple points to an array of names (string) "Theo", "Peter Jr", "lucky"
-    #:grey 
+    #:purple points to an array of names (string) "Theo", "Peter Jr.", "Lucky"
+    #:grey points to an array of names (string) "Theo", "Peter Jr.", "Ms. K"
+    #:white
