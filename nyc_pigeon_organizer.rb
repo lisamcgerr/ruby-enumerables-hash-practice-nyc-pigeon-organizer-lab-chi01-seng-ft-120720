@@ -29,13 +29,11 @@ def nyc_pigeon_organizer(data)
       if !final_hash[element_of_array][key]
         final_hash[element_of_array][key] = [ ]
       end
-      binding.pry
         #if in the final hash of the first bird name - the key (:color, :gender, :lives) does NOT exist create an empty array
     final_hash[element_of_array][key].push(inner_key)
   end
   end
 end
-  binding.pry
 end
 #end of entire method
 
