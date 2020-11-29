@@ -12,7 +12,10 @@ def nyc_pigeon_organizer(data)
     value.each do |inner_key, inner_value_arrays|
       inner_value.each do |element_of_array|
         
-        #inner_key = 
+        #inner_key = :purple, :grey, :white, :brown
+          #inner_value_arrays point to arrays of strings of names
+        #inner_key = :male, :female
+        #inner_key = "Subway", "Central Park", "Library", "City Hall"
       binding.pry
       if !final_hash[name]
         final_hash[name] = { }
