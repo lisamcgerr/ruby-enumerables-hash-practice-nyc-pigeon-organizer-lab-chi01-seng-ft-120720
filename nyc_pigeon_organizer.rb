@@ -4,18 +4,23 @@ def nyc_pigeon_organizer(data)
   #data is the original hash
   
   data.each_with_object({ }) do |(key, value), final_hash|
-    #value points to :color, :gender, :lives
+   
+    #key points to :color, :gender, :lives, :color 1st
+    #value are the hashes within each of the 3 keys above
+    #final_hash = { } 
     
-    
-    value.each do |inner_key, names|
-      names.each do |name|
+    value.each do |inner_key, inner_value|
+      inner_value.each do |element_of_array|
       binding.pry
       if !final_hash[name]
+        #if "Theo" etc does not exist in final_hash create a new hash
+        final_hash[name] = { }
         
       end
+      
     end
   end
-  final_array
+  final_hash
 end
   
   binding.pry
