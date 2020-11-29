@@ -36,6 +36,6 @@ end
     
   #:lives points to a hash of value (string) "Subway", "Central Park", "Library", "City Hall"
     #"Subway" points to an array of (string) "Theo", "Queenie"
-    #"Central Park"
+    #"Central Park" 
     #"Library"
     #"City Hall"
