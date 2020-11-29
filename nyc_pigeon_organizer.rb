@@ -22,14 +22,17 @@ end
 
 
 
-#pigeon_data points to a a hash of value (symbols) :color, :gender, :lives
+#pigeon_data points to a a hash of value (symbol) :color, :gender, :lives
   
-  #:color points to a hash of value (symbols), :purple, :grey, :white, :brown
+  #:color points to a hash of value (symbol), :purple, :grey, :white, :brown
     #:purple points to an array of names (string) "Theo", "Peter Jr.", "Lucky"
     #:grey points to an array of names (string) "Theo", "Peter Jr.", "Ms. K"
     #:white points to an array of names (string) "Queenie", "Andrew", "Ms. K", "Alex"
     #:brown points to an array of names (string) "Queenie", "Alex"
     
-  #:gender points to a hash of value (symbols) :male, :female
-    #:male points to an array of names(string) "Alex", "Theo", "Peter Jr.", "Andrew", "Lucky"
-    #:female points to an array of names(string) 
+  #:gender points to a hash of value (symbol) :male, :female
+    #:male points to an array of names (string) "Alex", "Theo", "Peter Jr.", "Andrew", "Lucky"
+    #:female points to an array of names (string) "Queenie", "Ms. K"
+    
+  #:lives points to a hash of value (string) "Subway", "Central Park", "Library", "City Hall"
+    #"Subway" points to an array of (string)
