@@ -9,17 +9,20 @@ def nyc_pigeon_organizer(data)
     #value are the hashes within each of the 3 keys above
     #final_hash = { } 
     
-    value.each do |inner_key, inner_value|
+    value.each do |inner_key, inner_value_arrays|
       inner_value.each do |element_of_array|
       binding.pry
       if !final_hash[name]
         final_hash[name] = { }
+      end  
         #if "Theo" etc does not exist in final_hash create a new hash
+    
+      if !final_hash[element_of_array][key]
+        final_hash[element_of_array][key] = [ ]
       end
-      if !final_hash[element_of_array][key] = [ ]
-        
-        #if not in final_hash
+        #if it doesn't exist yet in final_hash
     end
+    
   end
   final_hash
 end
