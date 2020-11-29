@@ -30,7 +30,7 @@ def nyc_pigeon_organizer(data)
         final_hash[element_of_array][key] = [ ]
       end
         #if in the final hash of the first bird name - the key (:color, :gender, :lives) does NOT exist create an empty array
-    final_hash[element_of_array][key].push(inner_key)
+    final_hash[element_of_array][key].push(inner_key.to_s)
   end
   end
 end
@@ -82,7 +82,6 @@ end
     #:color points to an array of (string) "grey", "white"
     #:gender points to an array of (string) "female"
     #:lives points to an array of (string) "Central Park"
-  
   
   #"Queenie" points to a hash of value (symbol) :color, :gender, :lives
     #:color points to an array of (string) "white", "brown"
