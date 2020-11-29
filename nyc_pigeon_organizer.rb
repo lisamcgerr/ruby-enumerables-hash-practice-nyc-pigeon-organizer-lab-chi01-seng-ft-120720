@@ -47,12 +47,12 @@ end
 #pigeon_list points to a hash of value (string) "Theo", "Peter Jr.", "Lucky", "Ms. K", "Queenie", "Andrew", "Alex"
 
   #"Theo" points to a hash of value (symbol) :color, :gender, :lives
-    #:color points to an array of (string) "purple", "grey
+    #:color points to an array of (string) "purple", "grey"
     #:gender points to an array of (string) "male"
     #:lives points to an array of (string) "Subway"
   
   #"Peter Jr." points to a hash of value (symbol) :color, :gender, :lives
-   #:color points to an array of (string) "purple", "grey
+   #:color points to an array of (string) "purple", "grey"
    #:gender points to an array of (string) "male"
    #:lives points to an array of (string) "Library"
   
@@ -68,7 +68,9 @@ end
   
   
   #"Queenie" points to a hash of value (symbol) :color, :gender, :lives
-    
+    #:color points to an array of (string) "white", "brown"
+    #:gender points to an array of (string) "female"
+    #:lives points to an array of (string) "Subway"
   
   #"Andrew" points to a hash of value (symbol) :color, :gender, :lives
   
