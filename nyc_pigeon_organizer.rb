@@ -11,6 +11,8 @@ def nyc_pigeon_organizer(data)
     
     value.each do |inner_key, inner_value_arrays|
       inner_value.each do |element_of_array|
+        
+        #inner_key = 
       binding.pry
       if !final_hash[name]
         final_hash[name] = { }
@@ -21,7 +23,6 @@ def nyc_pigeon_organizer(data)
         final_hash[element_of_array][key] = [ ]
       end
         #if it doesn't exist yet in final_hash
-    end
     
   end
   final_hash
