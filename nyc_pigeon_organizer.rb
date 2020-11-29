@@ -46,7 +46,7 @@ end
 
 #pigeon_list points to a hash of value (string) "Theo", "Peter Jr.", "Lucky", "Ms. K", "Queenie", "Andrew", "Alex"
 
-  #"Theo" points to a hash of value (symbol) :color, :gender, :lives
+  
   
   
 
